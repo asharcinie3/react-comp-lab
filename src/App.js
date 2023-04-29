@@ -59,10 +59,10 @@ function MagicButton() {
 }*/
 
 const books = [
-  {id: 1, title: 'Blood of elves', author: 'Andrzej Sapkowski', published: '1994', genre:'fantasy', image:'https://www.hachettebookgroup.com/wp-content/uploads/2021/12/9780316392099.jpg?fit=1727%2C2600', isAvailable: true, width:'250'},
-  {id: 2, title: 'The Last Wish', author: 'Andrzej Sapkowski', published: '1993', genre:'fantasy', image:'https://m.media-amazon.com/images/I/81KYCaPYhRS._AC_UF1000,1000_QL80_.jpg', isAvailable: false, width:'250'},
-  {id: 3, title: 'The Laws of Human Nature', author: 'Robert Greene', published: '2018', genre:'self-help', image:'https://pictures.abebooks.com/isbn/9780525561804-us.jpg', isAvailable: true, width:'250'},
-  {id: 4, title: 'Twilight', author: 'Stephenie Meyer',  published: '2005', genre:'romance', image:'https://m.media-amazon.com/images/I/615ZIxEDozL._AC_UF1000,1000_QL80_.jpg', isAvailable: true, width:'250'},
+  {id: 1, title: 'Blood of elves', author: 'Andrzej Sapkowski', published: '1994', genre:'fantasy', image:'https://www.hachettebookgroup.com/wp-content/uploads/2021/12/9780316392099.jpg?fit=1727%2C2600', isAvailable: true},
+  {id: 2, title: 'The Last Wish', author: 'Andrzej Sapkowski', published: '1993', genre:'fantasy', image:'https://m.media-amazon.com/images/I/81KYCaPYhRS._AC_UF1000,1000_QL80_.jpg', isAvailable: false},
+  {id: 3, title: 'The Laws of Human Nature', author: 'Robert Greene', published: '2018', genre:'self-help', image:'https://pictures.abebooks.com/isbn/9780525561804-us.jpg', isAvailable: true},
+  {id: 4, title: 'Twilight', author: 'Stephenie Meyer',  published: '2005', genre:'romance', image:'https://m.media-amazon.com/images/I/615ZIxEDozL._AC_UF1000,1000_QL80_.jpg', isAvailable: true},
 ];
 
 function Bookshelf() {
@@ -94,7 +94,7 @@ function Bookshelf() {
 function SearchButton() {
   return (
     <div>
-      <form action="https://www.google.com/search?q=libraries+near+me&oq=libraries+near+me&aqs=chrome..69i57j0i20i263i512j0i512l8.3107j1j9&sourceid=chrome&ie=UTF-8" method="get" target="_blank">
+      <form action="https://www.yelp.com/search?cflt=libraries&find_loc=East+Lansing%2C+MI" method="get" target="_blank">
         <button type="submit" width='250' height='150'>Search other libraries</button>
       </form>
     </div>
